@@ -74,7 +74,7 @@ nav a.lnk:hover::after{width:100%}
 .hero-facts b{display:block;font-family:var(--serif);font-weight:400;font-size:30px;color:var(--ink);line-height:1.1}
 .hero-visual{position:relative;height:640px}
 .hero-photo{position:absolute;inset:0 0 0 0;clip-path:polygon(70px 0,100% 0,100% 100%,0 100%,0 70px);overflow:hidden}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:62% center}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 40%}
 .hero-tag{position:absolute;left:-56px;bottom:60px;background:var(--paper);padding:24px 26px;width:300px;box-shadow:0 30px 60px -30px rgba(43,41,38,.35)}
 .hero-tag .stars{color:var(--sage);letter-spacing:3px;font-size:14px}
 .hero-tag q{display:block;font-family:var(--serif);font-size:20px;line-height:1.3;margin:10px 0 12px;quotes:none}
@@ -122,6 +122,8 @@ nav a.lnk:hover::after{width:100%}
 .freq-note{margin-top:18px;font-size:14.5px;opacity:.8;min-height:24px}
 .svc-photo{height:250px;margin:-56px -52px 40px;overflow:hidden}
 .svc-photo img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s}
+.svc-photo.duo2{display:grid;grid-template-columns:1.2fr 1fr;gap:4px;height:280px}
+.svc-photo.duo2 img{min-width:0}
 .svc:hover .svc-photo img{transform:scale(1.04)}
 .ticks{list-style:none;display:grid;gap:14px;margin-top:6px}
 .ticks li{display:flex;gap:14px;align-items:flex-start;padding-bottom:14px;border-bottom:1px solid var(--line)}
@@ -361,7 +363,7 @@ footer a:hover{color:#fff}
       </div>
     </div>
     <div class="hero-visual rv">
-      <div class="hero-photo"><img src="images/kitchen-sink.jpg" alt="Spotless kitchen counter and sink after a Home Maid YYC clean"></div>
+      <div class="hero-photo"><img src="images/hero-kitchen.jpg" alt="Spotless kitchen counter and sink after a Home Maid YYC clean"></div>
       <div class="hero-stamp"><div><i>Bi-weekly</i>most<br>popular</div></div>
       <div class="hero-tag">
         <div class="stars">★★★★★</div>
@@ -417,7 +419,7 @@ footer a:hover{color:#fff}
         <a href="#quote" class="btn btn-line" data-svc="Regular Cleaning">Set up my routine</a>
       </div>
       <div class="svc">
-        <div class="svc-photo"><img src="images/bathroom.jpg" alt="Sparkling clean bathroom vanity and glass shower"></div>
+        <div class="svc-photo duo2"><img src="images/deep-clean-bathroom.jpg" alt="Deep-cleaned bathroom with spotless glass shower and vanity"><img src="images/move-in-living.jpg" alt="Empty living room cleaned and ready for move-in day"></div>
         <span class="tagline">Single visits</span>
         <h3>Move-Ins, Deep Cleans &amp; One-Time Cleans</h3>
         <ul class="ticks">
